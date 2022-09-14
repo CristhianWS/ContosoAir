@@ -2,7 +2,7 @@ pool:
   vmImage: ubuntu-22.04
 trigger:
   - master
-steps:
+steps: 
   - task: Npm@1
     inputs:
       command: 'custom'
