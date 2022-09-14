@@ -11,7 +11,6 @@ steps:
       npm install
       npm run build
       npm run test
-      npm test
     displayName: 'Run unit tests'
     continueOnError: true
   - task: PublishTestResults@2
